@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252323"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+           android:layout_weight="0.7" >
+
+            <TextView
+                android:id="@+id/tv_p1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:freezesText="true"
+                android:layout_alignParentTop="true"
+                android:textColor="#ffffff"
+                android:text="Player 1 : 0"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_p2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:freezesText="true"
+                android:text="Player 2 : 0"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="33dp"
+                android:text="Reset"
+                tools:ignore="RtlCompat" />
+
+
+        </RelativeLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.3"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btn_00"
+                    android:backgroundTint="#2b2929"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="60sp" />
+
+                <Button
+                    android:id="@+id/btn_01"
+                    android:backgroundTint="#2b2929"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="60sp" />
+
+                <Button
+                    android:id="@+id/btn_02"
+                    android:backgroundTint="#2b2929"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="60sp" />
+
+
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_weight="1">
+
+
+                <Button
+                    android:id="@+id/btn_10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#2b2929"
+                    android:textSize="60sp" />
+
+                <Button
+                    android:id="@+id/btn_11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#2b2929"
+                    android:textSize="60sp" />
+
+                <Button
+                    android:id="@+id/btn_12"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#2b2929"
+                    android:layout_weight="1"
+                    android:textSize="60sp" />
+
+
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_weight="1">
+
+
+                <Button
+                    android:id="@+id/btn_20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#2b2929"
+                    android:layout_weight="1"
+                    android:textSize="60sp" />
+
+                <Button
+                    android:id="@+id/btn_21"
+                    android:backgroundTint="#2b2929"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="60sp" />
+
+                <Button
+                    android:id="@+id/btn_22"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#2b2929"
+                    android:textSize="60sp" />
+
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
